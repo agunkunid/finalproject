@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: purple;
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+#logo-wrapper img {
+  width: 5em;
+  border-radius: 100px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+.helo {
+  font-size: 70px;
+}
+.card h2 {
+  font-size: 30px;
+}
+li {
+  float: left;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.75em;
+  padding: 0.75em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li:hover {
+  background-color: blue;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.content-wrapper {
+  min-height: 80vh;
+  padding: 1em;
+  padding-top: 6em;
+}
+
+#menu1 {
+  background-color: LightGray;
+  h1 {
+    text-align: center;
+  }
+}
+#menu2 {
+  background-color: LightGray;
+  justify-content: center;
+}
+.column {
+  align-items: center;
+  float: left;
+  width: 25%;
+  padding: 0 65px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+#menu3 {
+  background-color: gray;
+  justify-content: center;
+}
+#menu4 {
+  background-color: lightgray;
+}
+#menu5 {
+  background-image: url(AMIKOM_LOGO.svg.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 400px 300px;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#menu7 {
+  background-color: orange;
+}
+
+.content-wrapper h1 {
+  margin-top: 0;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: auto;
+  position: fixed;
+  justify-content: center;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
